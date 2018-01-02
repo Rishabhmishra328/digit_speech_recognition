@@ -369,7 +369,7 @@ def read_data_sets(train_dir,source_data=Source.NUMBER_IMAGES, fake_data=False, 
 
 if __name__ == "__main__":
   print("downloading speech datasets")
-  maybe_download( Source.DIGIT_SPECTROS)
-  maybe_download( Source.DIGIT_WAVES)
-  maybe_download( Source.NUMBER_IMAGES)
-  maybe_download( Source.NUMBER_WAVES)
+  # maybe_download( Source.DIGIT_SPECTROS)
+  # maybe_download( Source.DIGIT_WAVES)
+  # maybe_download( Source.NUMBER_IMAGES)
+  # maybe_download( Source.NUMBER_WAVES)
