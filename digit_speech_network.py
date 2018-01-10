@@ -2,11 +2,11 @@ import tflearn as tfl
 import speech_data as sdata
 
 learning_rate = 0.0001
-iterations = 300000
+iterations = 300
 width = 20
 height = 80
 classes = 10
-batch_size = 64
+batch_size = 32
 
 batch = word_batch = sdata.mfcc_batch_generator(batch_size)
 X, Y = next(batch)
